@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+<body>
+    <header>
+        <!-- <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="index.html">MyPortfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                 </span>
+              </button> -->
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <h1>Spencer Grier</h1>
+        <h2>Principal Software Engineer</h2>
+        <h3>Welcome to my portfolio</h3>
+        <!-- <img class="banner-img" src="MFEs.jpeg" /> -->
+        <section class="intro">
+            <p>I'm on a mission to the world of excellence and innovation to redefine the boundaries of success and technological advancement in the industry.</p>
+        </section>
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="flex-projects">
+            <div class="project" style="width: 20rem;">
+                <div class="card" style="width: 20rem;">
+                    <img src="UFOs.jpeg" class="card-img-top" alt="ufo image over earth">
+                    <div class="card-body">
+                      <h5 class="card-title">UFO Tracker</h5>
+                      <p class="card-text">A dynamic UFO sightings map built using a Kaggle Dataset of historic UFO sightings, Angular, Leaflet and OpenStreetMaps. How many sightings are there in your area?</p>
+                      Check it out <a href="https://github.com/Br0Stack/UFOMAP" class="btn btn-primary">here</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="project" style="width: 20rem;">
+                <div class="card" style="width: 20rem;">
+                    <img src="chatbot.png" class="card-img-top" alt="AI bot for telegram image">
+                    <div class="card-body">
+                      <h5 class="card-title">Telegram AI Bot</h5>
+                      <p class="card-text">A Telegram bot built in Python 3 with the telegram-bot-api library. Uses a MongoDB Aggregation to calculate historic rate quotes for freight companies and carriers.</p>
+                      Check it out <a href="https://github.com/Br0Stack/new-tele-bot" class="btn btn-primary">here</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="project" style="width: 20rem;">
+                <div class="card" style="width: 20rem;">
+                    <img src="npm.png" class="card-img-top" alt="AI bot for telegram image">
+                    <div class="card-body">
+                      <h5 class="card-title">NPM Package Search Tool</h5>
+                      <p class="card-text">An NPM package search tool built in React with the NPM API integrated for searching NPM packages. Also sorts and rates the packages based on criteria on NPM.</p>
+                      Check it out <a href="https://github.com/Br0Stack/GremlinSkillTest" class="btn btn-primary">here</a>
+                    </div>
+                  </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Spencer Grier</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
